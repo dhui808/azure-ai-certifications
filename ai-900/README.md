@@ -16,4 +16,17 @@ Azure ML Designer: build machine learning pipelines visually
 Deep Learning: udentify patterns in the unstructured data  
 
 Data preparation:  
-  Cleaning, normalizing, splitting (split data into training and validation sets)
+  Cleaning, normalizing, splitting (split data into training and validation sets)  
+
+### Quick Summary of Clustering Scenarios
+
+| Scenario                          | Description                  |
+|-----------------------------------|------------------------------|
+| Customer segmentation             | Find natural customer groups   
+| Recommendation systems            | Group similar items  
+| Anomaly detection                 | Identify outliers (Fraud, Security, Manufacturing)    
+| Image segmentation                | Group similar pixels  
+| Gene analysis                     | Discover biological patterns  
+| Geographic grouping               | Optimize spatial decisions  
+| Document clustering               | Organize large text collections  
+| Preprocessing for other ML Tasks  | Improve downstream ML models   
