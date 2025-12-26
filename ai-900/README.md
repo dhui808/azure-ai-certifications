@@ -1,6 +1,7 @@
 ## Fundamental principles of machine learning on Azure
-Maching Learning: creat a model to predict unknown values  
-Label: the value we are trying to predict
+Maching Learning: creat a model to predict unknown values
+Features: the inputs to a machine‑learning model  
+Labels: the output the model is trying to predict  
 
 
 Azure Automated ML: build and deploy ML models  
