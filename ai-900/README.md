@@ -1,8 +1,8 @@
 ## Fundamental principles of machine learning on Azure
-Maching Learning: creat a model to predict unknown values
+Maching Learning: creat a model to predict unknown values  
 Features: the inputs to a machine‑learning model  
 Labels: the output the model is trying to predict  
-
+Training data set and validation dataset  
 
 Azure Automated ML: build and deploy ML models  
 * Classification (e.g., fraud detection, churn prediction): predict a category or class 
