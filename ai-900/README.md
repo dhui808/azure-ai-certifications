@@ -30,3 +30,23 @@ Data preparation:
 | Geographic grouping               | Optimize spatial decisions  
 | Document clustering               | Organize large text collections  
 | Preprocessing for other ML Tasks  | Improve downstream ML models   
+
+## Azure Data Services for Data Science & ML
+* Azure Data Lake Storage (ADLS)  
+* Azure AutoML
+* Azure Synapse Analytics
+* Azure Data Factory
+* Azure SQL Database / Azure Cosmos DB  
+
+## Azure Compute Services for Machine Learning
+* Serverless Compute
+* Compute Clusters
+* Compute Instances
+* Azure Databricks
+* Azure Kubernetes Service (AKS)
+* Azure Functions / Azure Container Apps
+
+##
+
+
+
