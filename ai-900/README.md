@@ -3,6 +3,12 @@ Maching Learning: creat a model to predict unknown values
 Features: the inputs to a machine‑learning model  
 Labels: the output the model is trying to predict  
 Training data set and validation dataset  
+Hyperparameter: a setting  
+- set by you, not learned from data
+- external to the model, controlling its behavior
+- tuned to improve performance
+- In contrast, parameters are learned automatically during training.
+Lineage: end-to-end tracking of data, code, and processes through a model's lifecycle
 
 Azure Automated ML: build and deploy ML models  
 * Classification (e.g., fraud detection, churn prediction): predict a category or class 
@@ -33,20 +39,45 @@ Data preparation:
 
 ## Azure Data Services for Data Science & ML
 * Azure Data Lake Storage (ADLS)  
-* Azure AutoML
+* Azure AutoML: end‑to‑end ML lifecycle platform
 * Azure Synapse Analytics
-* Azure Data Factory
+* Azure Data Factory: a cloud ETL/ELT service
 * Azure SQL Database / Azure Cosmos DB  
 
 ## Azure Compute Services for Machine Learning
-* Serverless Compute
-* Compute Clusters
-* Compute Instances
-* Azure Databricks
-* Azure Kubernetes Service (AKS)
-* Azure Functions / Azure Container Apps
+* Azure Machine Learning Compute: supporting training, deployment, and governance
+  * Serverless Compute
+  * Compute Clusters
+  * Compute Instances: for experimenting
+* Azure Databricks: distributed ML training
+* Azure Kubernetes Service (AKS): custom containerized ML workloads
+* Azure Functions / Azure Container Apps: Lightweight compute options 
 
-##
+## Model Management & Deployment in Azure Machine Learning
+* Model Management: tracking, versioning, registering, and governing ML models
+  * Model Registration and Versioning
+  * Lineage and Governance
+* Model Deployment (Inference)
+* Deployment Strategies
+  - Blue/Green Deployment
+  - Canary Deployment (Gradually route traffic)
+  - A/B Testing (split testing / bucket testing) — compares the performance of two versions of content 
+* CI/CD & MLOps Integration
+  - GitHub Actions
+  - Azure DevOps
+  - Azure ML Pipelines
+* Security & Governance
+  - Role-Based Access Control (RBAC)
+  - Audit logs
+* Monitoring & Maintenance
+  * Latency & throughput metrics
+  * Error rates
+  * Resource usage
+  * Data & model drift detection
+  * Integrated with
+    - Azure Monitor
+    - Application Insights
+
 
 
 
