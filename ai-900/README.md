@@ -1,4 +1,5 @@
 ## Fundamental principles of machine learning on Azure
+Maching Learning: creat a model to predict unknown values  
 Label: the value we are trying to predict
 
 
