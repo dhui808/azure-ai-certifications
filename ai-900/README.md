@@ -78,6 +78,50 @@ Data preparation:
     - Azure Monitor
     - Application Insights
 
+## Transformer architecture
+Replacing sequential models like RNNs and LSTMs with a highly parallel, attention‑based system.  
+Hugging Face: NLP transformers library  
 
+1. Self‑Attention (the core innovation)  
+Each token (word, subword, or character) “attends” to every other token to understand context.   
+This allows the model to capture long‑range relationships efficiently.  
+
+2. Parallel Processing  
+Unlike RNNs, Transformers process all tokens **simultaneously**.
+
+3. Positional Encoding  
+Because Transformers don’t process text sequentially, they add **positional encodings** to
+represent word order.  
+
+The original Transformer uses an **Encoder-Decoder** structure, though modern variations often use just one or the other.
+
+### **The Encoder (The "Reader")**
+
+The encoder’s job is to understand the input. It breaks the text down into "embeddings" (mathematical vectors) and 
+processes them through multiple layers to capture deep meaning.
+
+* **Input Embedding:** Converts words into numbers.
+* **Positional Encoding:** Adds a "time stamp" to each word so the model knows where it sits in the sentence (since
+  it processes everything at once).
+* **Multi-Head Attention:** Several attention mechanisms running at once to catch different types of relationships
+  (e.g., one head for grammar, another for meaning).
+
+### **The Decoder (The "Writer")**
+
+The decoder takes the encoder's "understanding" and generates an output (like a translation or a response).
+
+* **Masked Self-Attention:** Ensures that when the model is predicting the next word, it can't "cheat" by looking at
+  the words that come after it in the training data.
+* **Encoder-Decoder Attention:** Connects the decoder back to the encoder’s findings to ensure the output stays
+  relevant to the original input.
+
+### Why Transformer architecture Changed AI
+The Transformer architecture is the foundation for almost all current state-of-the-art AI:
+
+* **GPT (Generative Pre-trained Transformer):** Uses only the **Decoder** part of the architecture to predict
+  the next word in a sequence.
+* **BERT:** Uses only the **Encoder** to understand the nuances of language for search engines.
+* **Vision Transformers (ViT):** Applies the same logic to images by breaking them into small patches (like
+  words in a sentence), proving that Transformers aren't just for text.
 
 
