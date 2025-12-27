@@ -124,4 +124,49 @@ The Transformer architecture is the foundation for almost all current state-of-t
 * **Vision Transformers (ViT):** Applies the same logic to images by breaking them into small patches (like
   words in a sentence), proving that Transformers aren't just for text.
 
+## Theory behind the Transformer architecture - Scaled Dot-Product Attention mechanism
+It uses three distinct vectors for every single word (token) in a sentence: **Query ()**, **Key ()**, and **Value ()**.
+
+A helpful analogy is a **filing cabinet** or a **search engine**:
+
+* **Query ():** What you are looking for (the current word asking "Who is relevant to me?").
+* **Key ():** The label on the folder (every word saying "Here is what I contain").
+* **Value ():** The actual information inside the folder.
+
+### 1. The Mathematical Steps
+
+The model calculates the relationship between words using the following formula:
+
+#### Step A: The Score (Dot Product)
+
+The model takes the **Query** of one word and multiplies it by the **Key** of every other word (including itself).
+
+* If the Query and Key are similar, the resulting number is high.
+* If they are unrelated, the number is low.
+
+#### Step B: Scaling and Softmax
+
+1. **Scaling:** The score is divided by  (where  is the dimension of the keys). This prevents the numbers from
+   getting too large, which helps with stable training.
+3. **Softmax:** This turns the scores into **probabilities** (weights) that add up to  (or 100%). A word might
+   give 80% of its attention to itself and 20% to a related noun.
+
+#### Step C: The Weighted Sum
+
+Finally, the model multiplies these weights by the **Value ()** vectors. The output is a new representation of 
+the word that is "enriched" by the information from all the other relevant words in the sentence.
+
+
+### 2. Multi-Head Attention
+
+Instead of doing this once, the Transformer does it many times simultaneously. This is called **Multi-Head Attention**.
+
+Think of it like a committee of experts looking at the same sentence:
+
+* **Head 1** might focus on grammar (subject-verb agreement).
+* **Head 2** might focus on vocabulary (which definition of "bank" is being used?).
+* **Head 3** might focus on pronouns (who does "it" refer to?).
+
+The results of all these "heads" are concatenated together and passed to the next layer of the network.
+
 
