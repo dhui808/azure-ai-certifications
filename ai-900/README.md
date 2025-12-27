@@ -1,4 +1,4 @@
-## Fundamental principles of machine learning on Azure
+# Fundamental principles of machine learning on Azure
 Maching Learning: creat a model to predict unknown values  
 Features: the inputs to a machine‑learning model  
 Labels: the output the model is trying to predict  
@@ -169,4 +169,38 @@ Think of it like a committee of experts looking at the same sentence:
 
 The results of all these "heads" are concatenated together and passed to the next layer of the network.
 
+## Deep learning
+Artificial neural networks with multiple "deep" layers to extract patterns.  
 
+Ttraditional **machine learning** often requires humans to identify and label features (like "wheels" or "eyes") manually  
+Deep learning techniques learn these features directly from the raw data.  
+
+### 1. Key Architectural Features
+
+* **Multi-Layered (Deep) Structure:** Models consist of an input layer, an output layer, and many **hidden layers**  
+  in between. Each layer acts as a filter that transforms raw data into a more abstract representation (e.g., from
+  pixels to edges, then to shapes, and finally to objects).
+* **Non-Linearity:** By using **activation functions** (like ReLU or Sigmoid), deep learning can model complex,
+  non-linear relationships that simple linear models cannot.
+* **Massive Parameter Count:** Deep learning models often have millions of "weights" and "biases" that are fine-tuned
+  during training to improve accuracy.
+
+
+### 2. Core Operational Capabilities
+
+* **Automated Feature Engineering:** This is the most significant advantage. Deep learning automatically discovers  
+  which features are important for a task (e.g., identifying a cat's ears in a photo) without human intervention.
+* **Scalability with Data:** While traditional algorithms often hit a performance plateau as data increases, deep  
+  learning models generally continue to improve their accuracy the more data they are given.
+* **End-to-End Learning:** These techniques can take raw input (like a sound wave) and produce the final output  
+  (like a text transcript) in one single process, rather than breaking it into multiple independent steps.
+
+
+### 3. Specialized Techniques & Architectures
+
+| Technique | Best Used For | Key Feature |
+| :----------------------- | :------------------- | :--- |
+| **CNNs** (Convolutional) | Images / Video       | Detects spatial patterns and hierarchies. |
+| **RNNs** (Recurrent)     | Speech / Time-series | Has "memory" to process sequences of data. |
+| **Transformers**         | Text / Translation   | Uses "attention" to understand the context of words. |
+| **GANs** (Generative)    | Creating new content | Uses two networks (Generator vs. Discriminator) to compete. |
