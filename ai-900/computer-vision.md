@@ -40,3 +40,9 @@ Solutions are often categorized by how they handle labels:
   entire background.
 * **Multimodal Search:** Allowing users to find images using text descriptions (e.g., "Find all photos of
   red trucks in the rain").
+
+## Object detection solutions
+Object detection solutions in AI focus on identifying, classifying, and locating objects within images or video.  
+
+
+
