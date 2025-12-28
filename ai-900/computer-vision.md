@@ -1,4 +1,18 @@
 # Computer vision workloads on Azure
+**Foundry Tools**: Azure Cognitive Services (also known as Azure AI Services)  
+
+**Azure AI Face**: detailed facial analysis information. a specialized, deeper service  
+**Azure AI Vision**: only returns boundbox coordinates. general image/video analysis. Can detect both landmarks  
+and celebrities. Object detection.  
+
+OCR: for non-document images  
+**Document Intelligence** for reading images of documents and forms  
+Both Azure AI Vision and Azure AI Document Intelligence indlude OCR  
+
+**Azure AI Vision**: pre-trained models for general image tasks (analyze, read text, detect faces)  
+**Azure AI Custom Vision**:  create/train a custom model using your own images for image classification and object 
+detection     
+
 ## Image classification solutions
 ### 1. Classification Types
 
@@ -44,5 +58,19 @@ Solutions are often categorized by how they handle labels:
 ## Object detection solutions
 Object detection solutions in AI focus on identifying, classifying, and locating objects within images or video.  
 
-
-
+## Video features - Azure AI Video Indexer
+* Face Detection
+* OCR
+* Content Moderation
+* Scene Changes
+* People Tracking
+  
+## Audio features
+* Speech-to-Text (STT)
+* Text-to-Speech (TTS)
+* Emotion detection
+* Speaker Recognition & Diarization
+* Translation
+* Automatic Language Detection
+* Keyword and Named Entity Extraction
+  
