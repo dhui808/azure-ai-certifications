@@ -2,7 +2,11 @@
 Maching Learning: creat a model to predict unknown values  
 Features: the inputs to a machine‑learning model  
 Labels: the output the model is trying to predict  
-Training data set and validation dataset  
+Dataset:
+  * Training dataset:
+  * Validation dataset: to tune the model's hyperparameters and prevent overfitting  
+  * Test dataset: to provide a final, unbiased measure of the model's performance after all
+    training is complete.    
 **Hyperparameter**: a setting  - **inference parameter**  
 - set by you, not learned from data
 - external to the model, controlling its behavior
