@@ -5,7 +5,7 @@
 **Azure AI Vision**: only returns boundbox coordinates. general image/video analysis. Can detect both landmarks  
 and celebrities. Object detection.  
 
-OCR: for non-document images  
+OCR: for checks and non-document images  
 **Document Intelligence** for reading images of documents and forms  
 Both Azure AI Vision and Azure AI Document Intelligence include OCR  
 
@@ -13,8 +13,16 @@ Both Azure AI Vision and Azure AI Document Intelligence include OCR
 **Azure AI Custom Vision**:  create/train a custom model using your own images for image classification and object 
 detection     
 
+**Face Verification**: 1:1 process, answering the question: Is this person who they claim to be?  
+**Face Identification**: 1:N process, answering: who is this person?
+**Facial landmarks** are key points (like eye corners, nose tip, mouth edges) identified on a face  
+**PersonGroup** is the correct data structure face identification  
+
 ## Image classification solutions
 ### 1. Classification Types
+
+The primary output of **image classification** model is a class label for the main subject.  
+**Image captioning** is more complex than classification.
 
 Solutions are often categorized by how they handle labels:
 
@@ -60,7 +68,7 @@ Object detection solutions in AI focus on identifying, classifying, and locating
 
 ## Video features - Azure AI Video Indexer
 * Face Detection
-* OCR
+* OCR: extract account number, routing number and deposit amount from a check.
 * Content Moderation
 * Scene Changes
 * People Tracking
