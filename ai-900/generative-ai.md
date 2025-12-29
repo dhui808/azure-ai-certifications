@@ -2,6 +2,9 @@
 ## Generative AI creates original content
 Grounding: The process of porviding additional context and real-world information to the model  
 
+Azure OpenAI Service: Access to OpenAI's large language models and embedding models.  
+Azure AI Search: A managed search service that indexes and searches large volumes of your enterprise data  
+
 ## Language models
 * Tokennization
 * Embedding: creating vectors of the tokens  
