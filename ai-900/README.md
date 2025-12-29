@@ -6,7 +6,8 @@ Dataset:
   * Training dataset:
   * Validation dataset: to tune the model's hyperparameters and prevent overfitting  
   * Test dataset: to provide a final, unbiased measure of the model's performance after all
-    training is complete.    
+    training is complete.
+     
 **Hyperparameter**: a setting  - **inference parameter**  
 - set by you, not learned from data
 - external to the model, controlling its behavior
