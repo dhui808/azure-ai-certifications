@@ -5,6 +5,9 @@ Grounding: The process of porviding additional context and real-world informatio
 Azure OpenAI Service: Access to OpenAI's large language models and embedding models.  
 Azure AI Search: A managed search service that indexes and searches large volumes of your enterprise data  
 
+Parameters: internal variables  
+Hyperparameters: User-configuratable settings  
+
 ## Key Services & Capabilities
 * Azure OpenAI Service: Provides access to OpenAI's models  
 * Azure AI Foundry: A platform for building, testing, and deploying custom AI agents for content understanding,  
