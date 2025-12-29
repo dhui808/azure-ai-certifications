@@ -34,4 +34,12 @@ Transformer model represents relationships between words.
 * Metaprompt and grounding layer: prompt engineering and grounding
 * User experience layer:
 
+## Top-P vs Top-K
+**Top-P**, or nucleus sampling, is a key AI text generation setting that controls output creativity by  
+selecting the smallest set of most probable next words whose cumulative probability exceeds a threshold  
+'P' (e.g., 0.9 for 90%), offering a dynamic balance between focused, predictable text (low P) and  
+diverse, creative responses (high P)  
 
+**Top-K** sampling is a text generation technique that limits the model's next word choices to the k  
+most probable options, introducing controlled randomness for diverse yet coherent outputs, preventing  
+bizarre choices while balancing creativity with focus.  
