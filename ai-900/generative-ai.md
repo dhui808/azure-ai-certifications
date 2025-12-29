@@ -5,6 +5,14 @@ Grounding: The process of porviding additional context and real-world informatio
 Azure OpenAI Service: Access to OpenAI's large language models and embedding models.  
 Azure AI Search: A managed search service that indexes and searches large volumes of your enterprise data  
 
+## Key Services & Capabilities
+* Azure OpenAI Service: Provides access to OpenAI's models  
+* Azure AI Foundry: A platform for building, testing, and deploying custom AI agents for content understanding,  
+translation, and speech, accelerating innovation.  
+* Azure Machine Learning (Azure ML): For building, training, and deploying custom models  
+* Azure AI Services: Pre-built APIs for Vision, Speech, Language, and Cognitive Services that integrate with
+  generative AI  
+
 ## Language models
 * Tokennization
 * Embedding: creating vectors of the tokens  
