@@ -1,5 +1,6 @@
 # Generative AI workloads on Azure
 ## Generative AI creates original content
+Grounding: The process of porviding additional context and real-world information to the model  
 
 ## Language models
 * Tokennization
