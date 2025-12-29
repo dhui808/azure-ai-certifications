@@ -3,11 +3,11 @@ Maching Learning: creat a model to predict unknown values
 Features: the inputs to a machine‑learning model  
 Labels: the output the model is trying to predict  
 Training data set and validation dataset  
-Hyperparameter: a setting  
+**Hyperparameter**: a setting  - **inference parameter**  
 - set by you, not learned from data
 - external to the model, controlling its behavior
 - tuned to improve performance
-- In contrast, parameters are learned automatically during training.
+- In contrast, **parameters** are learned automatically during training and are internal variables.  
 Lineage: end-to-end tracking of data, code, and processes through a model's lifecycle
 
 Azure Automated ML: build and deploy ML models  
