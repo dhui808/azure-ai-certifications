@@ -29,6 +29,10 @@ R-squared 
 * R^2=1: Perfect Fit
 * R^2=0: No Fit
 
+Multiclass classification: assigns an input to one of three or more distinct, mutually exclusive classes  
+Binary classification (two classes)  
+Multi-label classification (multiple labels per input)  
+
 ### Quick Summary of Clustering Scenarios
 
 | Scenario                          | Description                  |
