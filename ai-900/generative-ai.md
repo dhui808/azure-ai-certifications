@@ -1,5 +1,5 @@
 # Generative AI workloads on Azure
-## Generative AI creates original content
+## Generative AI creates original content based on patterns from training data
 Grounding: The process of porviding additional context and real-world information to the model  
 
 Azure OpenAI Service: Access to OpenAI's large language models and embedding models.  
