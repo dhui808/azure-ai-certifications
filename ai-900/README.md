@@ -24,6 +24,11 @@ Deep Learning: udentify patterns in the unstructured data
 Data preparation:  
   Cleaning, normalizing, splitting (split data into training and validation sets)  
 
+R-squared  
+* Scale: Ranges from 0 to 1
+* R^2=1: Perfect Fit
+* R^2=0: No Fit
+
 ### Quick Summary of Clustering Scenarios
 
 | Scenario                          | Description                  |
