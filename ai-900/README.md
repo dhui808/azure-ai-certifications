@@ -22,7 +22,9 @@ Azure Automated ML: build and deploy ML models
 * Time‑series forecasting (e.g., demand forecasting)
 * Computer vision (object detection, image classification)
 * Natural language processing (text classification, sentiment analysis)
-Azure ML Designer: build machine learning pipelines visually
+* 
+Azure ML Designer: build machine learning pipelines visually  
+Azure Automated Machine Learning (AutoML): to simplfy and accelerate the process of finding a high-quality model
 
 Deep Learning: udentify patterns in the unstructured data  
 
