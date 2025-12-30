@@ -18,6 +18,21 @@ detection
 **Facial landmarks** are key points (like eye corners, nose tip, mouth edges) identified on a face  
 **PersonGroup** is the correct data structure face identification  
 
+## Azure AI VIsion REST operations:
+### Image Analysis REST Operations
+* analyze: extracts a rich set of visual features based on the image content. 
+* describe: generates a description of an image in human readable language with complete sentences.
+* detect: Performs object detection on the specified image. Returns the bounding boxex. Does npot provide tags,
+  descriptions, or celebrity recognition.   
+* read: for OCR to extract text from an image.
+
+### Face API REST Operations
+* detect: Detect human faces in an image, return face rectangles, and optionally with faceIds, landmarks,
+  and attributes.
+* face rocognition: match or verify faces.
+* face identification: identify a person from a large person group
+* Person group management
+  
 ## Image classification solutions
 ### 1. Classification Types
 
