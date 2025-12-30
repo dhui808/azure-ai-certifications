@@ -94,3 +94,42 @@ Enhances portrait images with:
   
 ### Face redaction
 Redact or blur detected faces of people recorded in a video to protect their privacy  
+
+## Azure AI Video Indexer
+Out-of-scope for AI-900  
+[Azure AI Video Indexer](https://learn.microsoft.com/en-us/azure/azure-video-indexer/)  
+
+### Video Indexer Enabled by Azure Arc
+* Transcription	
+* Translation	
+* Captioning
+* Key frame detection	
+* Object detection	
+* Scene detection	
+* Shot detection	
+* Summarization
+
+### Cloud-based Video Indexer
+Video models  
+* Face detection
+* Celebrity identification
+* Account-based face identification
+* OCR
+* etc.
+
+Audio models  
+* Audio transcription
+* Closed captioning
+* etc
+
+Audio and video models (multichannels)  
+* Keywords extraction
+* Named entities extraction
+* Topic inference
+* Artifacts
+* Sentiment analysis
+
+
+
+
+
