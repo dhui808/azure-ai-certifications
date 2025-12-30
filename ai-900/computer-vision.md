@@ -44,9 +44,11 @@ Object detection solutions in AI focus on identifying, classifying, and locating
 - **Understands object relationships**, such as multiple instances of the same object in an image.
 
 ## Azure AI Vision
+[Azure AI Vision](https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/overview-image-analysis?tabs=4-0)  
+
 | Feature Area       | Key Capabilities |
 |--------------------|------------------|
-| **Image Analysis** | Tagging, classification, captioning, object detection, smart crop |
+| **Image Analysis** | Tagging, classification, captioning, object detection, smart crop, people detection, Multimodal embedding |
 | **OCR**            | Printed + handwritten text extraction, multi‑language support |
 | **Face**           | Detection, recognition, identification, returns Face bounding boxes, landmarks, pose |
 | **Video Analysis** | Spatial analysis, movement tracking, video search |
