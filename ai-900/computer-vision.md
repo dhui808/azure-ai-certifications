@@ -33,47 +33,32 @@ Solutions are often categorized by how they handle labels:
 * **Multi-label Classification:** Allowing a single image to have multiple tags (e.g., a photo tagged as both  
   "Sunset," "Beach," and "Summer").
 
-### 2. Core Functional Features
-
-* **Confidence Scoring:** Instead of a simple "yes/no," the system provides a probability score (e.g., "98% Dog,
-  2% Cat"). This allows businesses to set "human-in-the-loop" thresholds for low-confidence results.
-* **Automated Feature Extraction:** Unlike older methods, modern solutions use **Convolutional Neural Networks
-  (CNNs)** to automatically learn which visual patterns (edges, textures, shapes) are important for the
-  classification task.
-* **Data Augmentation:** To improve accuracy, solutions "create" more training data by taking existing images and
-  applying random rotations, flips, or color shifts, making the model more robust to different lighting and angles.
-* **Transfer Learning:** This allows a model to use "knowledge" from a massive general dataset (like ImageNet) and
-  fine-tune it for a specific niche task, significantly reducing the amount of data and time needed for training.
-
-### 3. Integrated Tooling & Metrics
-
-| Feature                    | Description |
-| -------------------------- | --- |
-| **Preprocessing Pipeline** | Automatically resizes, crops, and normalizes images to fit model requirements. |
-| **Inference API**          | A gateway that allows other software to send an image to the model and receive a label in real-time. |
-| **Confusion Matrix**       | A diagnostic tool that shows exactly which classes the model is confusing (e.g., mistaking "Wolf" for "Husky"). |
-| **Precision & Recall**     | Specific metrics that measure how reliable the model is for a particular label versus how many it missed. |
-
-### 4. Advanced Features
-
-* **Explainable AI (XAI):** Uses "heatmaps" (like Grad-CAM) to show which specific pixels in the image led
-  the model to its conclusion.
-* **Region of Interest (ROI):** Focuses the classification on a specific part of the image rather than the
-  entire background.
-* **Multimodal Search:** Allowing users to find images using text descriptions (e.g., "Find all photos of
-  red trucks in the rain").
-
 ## Object detection solutions
 Object detection solutions in AI focus on identifying, classifying, and locating objects within images or video.  
 
-## Video features - Azure AI Video Indexer
+### Key features
+- **Detects multiple objects** in an image and returns:
+  - Object name
+  - Confidence score
+  - Bounding box coordinates in pixels
+- **Understands object relationships**, such as multiple instances of the same object in an image.
+
+## Azure AI Vision
+| Feature Area       | Key Capabilities |
+|--------------------|------------------|
+| **Image Analysis** | Tagging, classification, captioning, object detection, smart crop |
+| **OCR**            | Printed + handwritten text extraction, multi‑language support |
+| **Face**           | Detection, recognition, identification, returns Face bounding boxes, landmarks, pose |
+| **Video Analysis** | Spatial analysis, movement tracking, video search |
+
+### Video features - Azure AI Video Indexer
 * Face Detection
 * OCR: extract account number, routing number and deposit amount from a check.
 * Content Moderation
 * Scene Changes
 * People Tracking
   
-## Audio features
+### Audio features
 * Speech-to-Text (STT)
 * Text-to-Speech (TTS)
 * Emotion detection
