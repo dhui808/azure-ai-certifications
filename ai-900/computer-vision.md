@@ -51,19 +51,44 @@ Object detection solutions in AI focus on identifying, classifying, and locating
 | **Face**           | Detection, recognition, identification, returns Face bounding boxes, landmarks, pose |
 | **Video Analysis** | Spatial analysis, movement tracking, video search |
 
-### Video features - Azure AI Video Indexer
-* Face Detection
-* OCR: extract account number, routing number and deposit amount from a check.
-* Content Moderation
-* Scene Changes
-* People Tracking
+## Azure AI Face
+[Azure Face Detection](https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/concept-face-detection)  
+
+### 1. **Face Detection**
+Detects one or more human faces in an image and returns:
+- Bounding box coordinates  
+- A unique face ID  
+- Facial landmarks (eyes, nose, mouth, etc.)  
+- Attributes such as:
+  - Head pose: Yaw, Roll, Pitch  
+  - Glasses  
+  - Mask detection  
+  - Blur, exposure, noise  
+  - Occlusion  
+  - Accessories  
+  - Quality for recognition  
+
+### 2. **Face Analysis**
+Provides deeper insights into detected faces, including:
+- Pose orientation (pitch, roll, yaw)  
+- Presence of masks or accessories  
+- Image quality indicators  
+
+### 3. **Face Recognition**
+Supports two major recognition tasks:
+- **Verification** — Is this the same person?  
+- **Identification** — Who is this person among a known group?  
+Used for identity verification, authentication, and access control.  
+
+### 4. **Liveness Detection**
+Ensures the face in front of the camera is **real and present**, not a photo or spoof.  
+Useful for secure onboarding and fraud prevention.  
+
+### 5. **Portrait Processing**
+Enhances portrait images with:
+- Face beautification  
+- Hair color adjustments  
+- Other aesthetic improvements  
   
-### Audio features
-* Speech-to-Text (STT)
-* Text-to-Speech (TTS)
-* Emotion detection
-* Speaker Recognition & Diarization
-* Translation
-* Automatic Language Detection
-* Keyword and Named Entity Extraction
-  
+### Face redaction
+Redact or blur detected faces of people recorded in a video to protect their privacy  
