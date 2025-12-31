@@ -23,7 +23,8 @@ translation, and speech, accelerating innovation.
 Transformer model represents relationships between words.  
   * Encoder block - breaks down text and converts it into converts it into a numerical representation,
     or **embedding**  
-  * Decoder block - generates answers and predications.
+  * Decoder block - generates answers and predications. uses the embeddings calculated by the encoder to
+    determine the next most probable token in a sequence started by a prompt.  
 
 ## Responsible AI
 * Identifying Harms
