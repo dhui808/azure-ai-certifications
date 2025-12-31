@@ -1,3 +1,5 @@
+[Introduction to AI in Azure](https://learn.microsoft.com/en-us/training/paths/introduction-to-ai-on-azure/)  
+
 # Fundamental principles of machine learning on Azure
 Maching Learning: creat a model to predict unknown values  
 Features: the inputs to a machine‑learning model  
