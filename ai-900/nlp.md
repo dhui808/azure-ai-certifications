@@ -23,6 +23,8 @@ Language modeling: predicts subsequent words based on prior context.
 
 ---
 ## Azure Language
+[Features and Use Cases](https://learn.microsoft.com/en-us/azure/ai-services/language-service/overview#which-language-feature-should-i-use)  
+
 Azure Language is a cloud-based service that provides Natural Language Processing (NLP) features for understanding 
 and analyzing text.  Available features:
   * Named Entity Recognition (NER)
