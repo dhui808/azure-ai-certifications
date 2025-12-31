@@ -1,5 +1,6 @@
 [Introduction to AI in Azure](https://learn.microsoft.com/en-us/training/paths/introduction-to-ai-on-azure/)  
-[Microsoft Foundry Documentation](https://learn.microsoft.com/en-us/azure/ai-foundry/?view=foundry-classic)  
+[Microsoft Foundry Documentation (classic)](https://learn.microsoft.com/en-us/azure/ai-foundry/?view=foundry-classic)  
+[Microsoft Foundry Documentation (new)](https://learn.microsoft.com/en-us/azure/ai-foundry/what-is-azure-ai-foundry?view=foundry&preserve-view=true)  
 
 # Fundamental principles of machine learning on Azure
 Maching Learning: creat a model to predict unknown values  
