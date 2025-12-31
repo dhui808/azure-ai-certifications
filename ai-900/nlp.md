@@ -117,3 +117,40 @@ After entities are detected, each entity receives a semantic label and is organi
 }
 ```
 
+---
+## Speech service capabilities
+* Speech to text
+* Text to speech
+  - **Speech Synthesis Markup Language (SSML)** to fine-tune the pitch, pronunciation, speaking rate,
+    volume, and more  
+  - **Neural voices**, which are human like voices powered by deep neural network
+* Speech translation: speech to speech and speech to text translation.
+* LLM speech
+  - transcribe: Convert pre-recorded audio into text.
+  - translate: Convert pre-recorded audio into text in a specified target language.
+* Language identification
+* Pronunciation assessment
+
+### Speech to text
+Also known as speech recognition, enables real-time and batch transcription of audio streams into text.  
+
+**Custom speech** allows you to tailor the speech recognition model to better suit your application's 
+specific needs.  
+
+**Whisper model** is a speech to text model from OpenAI that you can use to transcribe or translate 
+audio files.  
+
+### Text to speech
+Also known as speech synthesis  
+
+* Standard voice (Neural)
+* Custom Neural Voice
+
+The patterns of stress and intonation in spoken language are called **prosody**  
+
+Improve text to speech output with SSML  
+
+**Visemes**: Visemes are the key poses in observed speech, including the position of the lips, jaw, and 
+tongue in producing a particular phoneme.  
+
+
