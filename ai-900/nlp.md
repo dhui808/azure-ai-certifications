@@ -119,6 +119,8 @@ After entities are detected, each entity receives a semantic label and is organi
 
 ---
 ## Speech service capabilities
+[Speech service](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/overview)  
+
 * Speech to text
 * Text to speech
   - **Speech Synthesis Markup Language (SSML)** to fine-tune the pitch, pronunciation, speaking rate,
@@ -148,10 +150,52 @@ Also known as speech synthesis
 
 The patterns of stress and intonation in spoken language are called **prosody**  
 
-Improve text to speech output with SSML  
+Improve text to speech output with **SSML**  
 
 **Visemes**: Visemes are the key poses in observed speech, including the position of the lips, jaw, and 
 tongue in producing a particular phoneme.  
 
 Text to speech with the audio content creation tool  
+
+### Speech translation
+**Realtime speech translation**  
+Speech SDK or Speech CLI, Speech Studio  
+
+* Speech to text translation
+* Speech to speech translation
+* Multi-lingual speech translation
+* Live Interpreter
+* Multiple target languages translation  
+
+**Video translation**: translate and generate videos in multiple languages automatically.  
+* Dialogue audio extraction and spoken content transcription.
+* Translation from language A to B and large language model (LLM) reformulation.
+* Automatic translation – voice generation in other language.
+* Human in the loop for content editing
+* Subtitles generation  
+
+### LLM Speech API
+LLM speech API currently supports the following speech tasks:
+  * transcribe
+  * translate
+
+### Voice live API
+Voice live API is a solution enabling low-latency, high-quality speech to speech interactions for voice agents.  
+End-to-end solution, integrated speech recognition, generative AI, and text to speech  
+
+### Keyword recognition (keyword spotting)
+Keyword recognition detects a word or short phrase within a stream of audio.  
+keyword recognition is implemented as a multistage system.
+  - On-device keyword recognition (Edge, i.e. local on device)
+  - Keyword verification (Cloud)
+
+Metrics for accuracy of keyword recognition
+  * Correct accept rate: Measures the system's ability to recognize the keyword spoken by a user. (true positive rate)  
+  * False accept rate: Measures the system's ability to filter out audio that isn't the keyword spoken by a user.
+    (false positive rate)
+
+Keyword verification
+Keyword verification is a cloud service that reduces the effect of false accepts from on-device models with robust 
+models running on Azure.  
+Keyword verification is always used in combination with speech to text  
 
