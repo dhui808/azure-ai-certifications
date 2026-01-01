@@ -14,7 +14,9 @@
   F1=2*(Precision * Recall) / (Precision + Recall)  
   
  
-Aspect-based sentiment analysis: identifying sentiment related to specific aspects or topics within the text  
+Aspect-based **sentiment analysis**: identifying sentiment related to specific aspects or topics within the text  
+**Sentiment** analysis does not perform the act of categorization.  
+**Key phrase extraction** does not perform the act of categorization.  
 
 Speech Synthesis Markup Language (SSML): Giving the speech engine stage directions: pronunciation, pauses, speed, 
 pitch, emphasis, voice selection, and more.  
