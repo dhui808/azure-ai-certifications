@@ -83,3 +83,7 @@ Agent components
 
 ### Retrieval Augmented Generation (RAG)
 RAG is a pattern that uses your data with an LLM to generate answers specific to your data.  
+
+### Azure AI Search
+Azure AI Search tool connects an agent to a new or existing search index. Use this tool to retrieve 
+and summarize your indexed documents, grounding the agent's responses in your proprietary content.  
