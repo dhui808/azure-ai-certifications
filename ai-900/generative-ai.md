@@ -81,3 +81,5 @@ Agent components
 4. Check response status
 5. Retrieve the response
 
+### Retrieval Augmented Generation (RAG)
+RAG is a pattern that uses your data with an LLM to generate answers specific to your data.  
