@@ -56,3 +56,28 @@ bizarre choices while balancing creativity with focus.
 * Goverance,Security and Compliance
   - Content Safety
 * Observability & Monitoring
+
+## Foundry Agent Service
+**Foundry Agent Service** connects the core pieces of Foundry (such as models, tools, and frameworks) 
+into a single runtime. It manages conversations, orchestrates tool calls, enforces content safety, and 
+integrates with identity, networking, and observability systems.  
+
+### AI Agents
+Agents make decisions, invoke tools, and participate in workflows.  
+An agent has three core components:  
+* Model (LLM): Powers reasoning and language understanding.
+* Instructions: Define the agent's goals, behavior, and constraints. 
+* Tools
+
+Types of agents:  
+* Prompt-based
+* Workflow
+* Hosted
+
+Agent components  
+1. Create an agent: Define an agent to start sending messages and receiving responses.
+2. Create a conversation (optional): Use a conversation to maintain history across turns.
+3. Generate a response
+4. Check response status
+5. Retrieve the response
+
