@@ -47,3 +47,12 @@ diverse, creative responses (high P)
 **Top-K** sampling is a text generation technique that limits the model's next word choices to the k  
 most probable options, introducing controlled randomness for diverse yet coherent outputs, preventing  
 bizarre choices while balancing creativity with focus.  
+
+---
+# Microsoft Foundry (Azure AI Foundry)
+* Model catalog
+* AI Agent Service
+* Development and Deployment
+* Goverance,Security and Compliance
+  - Content Safety
+* Observability & Monitoring
