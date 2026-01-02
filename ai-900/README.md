@@ -257,3 +257,7 @@ improve model performance.
 ## Self-supervised learning
 **Self-supervised learning** creates supervision signals from the data itself, learning representations without manually 
 labeled data.  
+
+## Zero-shot learning
+**Zero-shot learning** enables models to perform tasks on classes or categories not seen during training by leveraging 
+semantic relationships.  
