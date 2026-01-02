@@ -254,6 +254,10 @@ improve model performance.
 **bias-variance tradeoff** involves balancing model complexity to minimize both bias (underfitting) and variance 
 (overfitting).  
 
+## Overfitting
+**Overfitting** occurs when a model memorizes the training data too closely, resulting in poor performance on new, 
+unseen data.  
+
 ## Self-supervised learning
 **Self-supervised learning** creates supervision signals from the data itself, learning representations without manually 
 labeled data.  
