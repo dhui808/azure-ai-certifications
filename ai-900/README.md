@@ -225,3 +225,8 @@ Deep learning techniques learn these features directly from the raw data.
 | **RNNs** (Recurrent)     | Speech / Time-series | Has "memory" to process sequences of data. |
 | **Transformers**         | Text / Translation   | Uses "attention" to understand the context of words. |
 | **GANs** (Generative)    | Creating new content | Uses two networks (Generator vs. Discriminator) to compete. |
+
+## Reinforcement learning
+**Reinforcement learning** is a machine learning approach where agents learn optimal behavior through trial and error, 
+receiving rewards or penalties.  
+
