@@ -240,3 +240,7 @@ to poor performance for underrepresented groups.
 ## Time series analysis
 **Time series analysis** is specifically designed to analyze patterns in sequential data over time, making it ideal 
 for sensor data analysis.  
+
+## Feature engineering
+**Feature engineering** is the process of creating, transforming, and selecting the most relevant input variables to 
+improve model performance.  
