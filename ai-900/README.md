@@ -233,3 +233,6 @@ receiving rewards or penalties.
 ## Selection bias
 **Selection bias** occurs when the training data is not representative of the population the AI system will serve, leading 
 to poor performance for underrepresented groups.  
+
+## Azure Personalizer
+**Azure Personalizer** uses reinforcement learning to select the best content or action for each user context.
