@@ -265,3 +265,6 @@ labeled data.
 ## Zero-shot learning
 **Zero-shot learning** enables models to perform tasks on classes or categories not seen during training by leveraging 
 semantic relationships.  
+
+## Few-shot learning
+**Few-shot learning enables models to learn new tasks or classes with only a few training examples per class.  
