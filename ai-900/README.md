@@ -230,3 +230,6 @@ Deep learning techniques learn these features directly from the raw data.
 **Reinforcement learning** is a machine learning approach where agents learn optimal behavior through trial and error, 
 receiving rewards or penalties.  
 
+## Selection bias
+**Selection bias** occurs when the training data is not representative of the population the AI system will serve, leading 
+to poor performance for underrepresented groups.  
