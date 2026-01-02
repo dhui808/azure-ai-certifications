@@ -247,3 +247,7 @@ for sensor data analysis.
 ## Feature engineering
 **Feature engineering** is the process of creating, transforming, and selecting the most relevant input variables to 
 improve model performance.  
+
+## bias-variance tradeoff
+**bias-variance tradeoff** involves balancing model complexity to minimize both bias (underfitting) and variance 
+(overfitting).  
