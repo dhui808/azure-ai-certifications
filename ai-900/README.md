@@ -4,6 +4,8 @@
 [Practice tests](https://www.certifyme.cloud/)  
 
 # Fundamental principles of machine learning on Azure
+[automated machine learning](https://learn.microsoft.com/en-us/azure/machine-learning/concept-automated-ml?view=azureml-api-2)  
+
 Maching Learning: creat a model to predict unknown values  
 Features: the inputs to a machine‑learning model  
 Labels: the output the model is trying to predict  
