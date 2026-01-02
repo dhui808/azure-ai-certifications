@@ -24,7 +24,8 @@ detection
 * describe: generates a description of an image in human readable language with complete sentences.
 * detect: Performs object detection on the specified image. Returns the bounding boxex. Does npot provide tags,
   descriptions, or celebrity recognition.   
-* read: for OCR to extract text from an image.
+* read: for OCR to extract text from an image. The Read API supports multi-page OCR for PDFs and TIFFs, returning
+  structured text with bounding boxes for each line and word.  
 
 ### Face API REST Operations
 * detect: Detect human faces in an image, return face rectangles, and optionally with faceIds, landmarks,
