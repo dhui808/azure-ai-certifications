@@ -241,6 +241,9 @@ to poor performance for underrepresented groups.
 **Time series analysis** is specifically designed to analyze patterns in sequential data over time, making it ideal 
 for sensor data analysis.  
 
+## Azure Anomaly Detector
+**Azure Anomaly Detector** automatically detects anomalies in time-series data using machine learning.  
+
 ## Feature engineering
 **Feature engineering** is the process of creating, transforming, and selecting the most relevant input variables to 
 improve model performance.  
