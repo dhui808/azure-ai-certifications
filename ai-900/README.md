@@ -253,3 +253,7 @@ improve model performance.
 ## bias-variance tradeoff
 **bias-variance tradeoff** involves balancing model complexity to minimize both bias (underfitting) and variance 
 (overfitting).  
+
+## Self-supervised learning
+**Self-supervised learning** creates supervision signals from the data itself, learning representations without manually 
+labeled data.  
