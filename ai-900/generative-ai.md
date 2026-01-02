@@ -87,3 +87,18 @@ RAG is a pattern that uses your data with an LLM to generate answers specific to
 ### Azure AI Search
 Azure AI Search tool connects an agent to a new or existing search index. Use this tool to retrieve 
 and summarize your indexed documents, grounding the agent's responses in your proprietary content.  
+
+## Customizing models
+* Using grounding data
+* Implementing RAG	
+* Fine-tuning
+* Managing security and governance controls
+  
+## Observability
+Evaluators are specialized tools that measure the quality, safety, and reliability of AI responses.  
+* Groundedness: measures how consistent the response is with respect to the retrieved context.
+* Relevance: measures how relevant the response is with respect to the query.
+* Fluency: measures natural language quality and readability.
+* Coherence: measures logical consistency and flow of responses.
+* Content safety: comprehensive assessment of various safety concerns.
+
