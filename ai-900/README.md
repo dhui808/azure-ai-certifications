@@ -236,3 +236,7 @@ to poor performance for underrepresented groups.
 
 ## Azure Personalizer
 **Azure Personalizer** uses reinforcement learning to select the best content or action for each user context.
+
+## Time series analysis
+**Time series analysis** is specifically designed to analyze patterns in sequential data over time, making it ideal 
+for sensor data analysis.  
