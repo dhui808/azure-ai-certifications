@@ -201,3 +201,15 @@ Keyword verification is a cloud service that reduces the effect of false accepts
 models running on Azure.  
 Keyword verification is always used in combination with speech to text  
 
+###  Speaker Recognition
+Speaker Recognition is used to answer the question "who is speaking?"  
+
+### Speaker Verification
+For speaker verification, the system needs at least 5 recordings (~30s each) to build a reliable voice vector.  
+Speaker verification can be either text-dependent or text-independent.  
+
+### Speaker identification
+Speaker identification is the task of determining the identity of an unknown voice among a set of candidate speakers.  
+The Speaker Identification API is text-independent as it does not compare what was said at the enrollment and recognition.  
+
+
