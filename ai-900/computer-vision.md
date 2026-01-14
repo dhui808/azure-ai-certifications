@@ -8,6 +8,7 @@ and celebrities. Object detection.
 OCR: for checks and non-document images  
 **Document Intelligence** for reading images of documents and forms  
 Both Azure AI Vision and Azure AI Document Intelligence include OCR  
+Document intelligence involves extracting, analyzing, and understanding information from various types of documents using AI. 
 
 **Azure AI Vision**: pre-trained models for general image tasks (analyze, read text, detect faces)  
 **Azure AI Custom Vision**:  create/train a custom model using your own images for image classification and object 
